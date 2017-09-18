@@ -1,0 +1,24 @@
+#map {
+	height: 100vh;
+}
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}	
+
+.p-left, .p-right {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	z-index: 1;
+}
+
+.p-right {
+	padding: 0px !important;
+}
+
+.p-left {
+	padding-top: 70px !important;
+}

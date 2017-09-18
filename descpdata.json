@@ -1,0 +1,170 @@
+var data = [
+	{
+		name: 'NITK Surathkal',
+		coords: {lat: 13.0107198, lng: 74.7944318},
+		cont: '<div id="content">'+
+		'<div id="siteNotice">'+
+		'</div>'+
+		'<h1 id="firstHeading" class="firstHeading">NITK Surathkal</h1>'+
+		'<div id="bodyContent">'+
+		'<p><b>Placeholder INFO</b>, also referred to as <b>Ayers Rock</b>, is a large ' +
+		'sandstone rock formation in the southern part of the '+
+		'Northern Territory, central Australia. It lies 335&#160;km (208&#160;mi) '+
+		'south west of the nearest large town, Alice Springs; 450&#160;km '+
+		'(280&#160;mi) by road. Kata Tjuta and Uluru are the two major '+
+		'features of the Uluru - Kata Tjuta National Park. Uluru is '+
+		'sacred to the Pitjantjatjara and Yankunytjatjara, the '+
+		'Aboriginal people of the area. It has many springs, waterholes, '+
+		'rock caves and ancient paintings. Uluru is listed as a World '+
+		'Heritage Site.</p>'+
+		'<p>Attribution: Uluru, <a href="https://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">'+
+		'https://en.wikipedia.org/w/index.php?title=Uluru</a> '+
+		'(last visited June 22, 2009).</p>'+
+		'</div>'+
+		'</div>'
+	},
+	{
+		name: 'Lecture Hall Complex - C',
+		coords: {lat: 13.010454, lng: 74.792273},
+		cont: '<div id="content">'+
+		'<div id="siteNotice">'+
+		'</div>'+
+		'<h1 id="firstHeading" class="firstHeading">Lecture Hall Complex - C</h1>'+
+		'<div id="bodyContent">'+
+		'<p><b>Placeholder INFO</b>, also referred to as <b>Ayers Rock</b>, is a large ' +
+		'sandstone rock formation in the southern part of the '+
+		'Northern Territory, central Australia. It lies 335&#160;km (208&#160;mi) '+
+		'south west of the nearest large town, Alice Springs; 450&#160;km '+
+		'(280&#160;mi) by road. Kata Tjuta and Uluru are the two major '+
+		'features of the Uluru - Kata Tjuta National Park. Uluru is '+
+		'sacred to the Pitjantjatjara and Yankunytjatjara, the '+
+		'Aboriginal people of the area. It has many springs, waterholes, '+
+		'rock caves and ancient paintings. Uluru is listed as a World '+
+		'Heritage Site.</p>'+
+		'<p>Attribution: Uluru, <a href="https://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">'+
+		'https://en.wikipedia.org/w/index.php?title=Uluru</a> '+
+		'(last visited June 22, 2009).</p>'+
+		'</div>'+
+		'</div>'
+	},
+	{
+		name: 'Electrical and Electronics Department',
+		coords: {lat: 13.010948, lng: 74.792329},
+		cont: '<div id="content">'+
+		'<div id="siteNotice">'+
+		'</div>'+
+		'<h1 id="firstHeading" class="firstHeading">Electrical and Electronics Department</h1>'+
+		'<div id="bodyContent">'+
+		'<p><b>Placeholder INFO</b>, also referred to as <b>Ayers Rock</b>, is a large ' +
+		'sandstone rock formation in the southern part of the '+
+		'Northern Territory, central Australia. It lies 335&#160;km (208&#160;mi) '+
+		'south west of the nearest large town, Alice Springs; 450&#160;km '+
+		'(280&#160;mi) by road. Kata Tjuta and Uluru are the two major '+
+		'features of the Uluru - Kata Tjuta National Park. Uluru is '+
+		'sacred to the Pitjantjatjara and Yankunytjatjara, the '+
+		'Aboriginal people of the area. It has many springs, waterholes, '+
+		'rock caves and ancient paintings. Uluru is listed as a World '+
+		'Heritage Site.</p>'+
+		'<p>Attribution: Uluru, <a href="https://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">'+
+		'https://en.wikipedia.org/w/index.php?title=Uluru</a> '+
+		'(last visited June 22, 2009).</p>'+
+		'</div>'+
+		'</div>'
+	},
+	{
+		name: 'Main Building',
+		coords: {lat: 13.010953, lng: 74.794324},
+		cont: '<div id="content">'+
+		'<div id="siteNotice">'+
+		'</div>'+
+		'<h1 id="firstHeading" class="firstHeading">Main Building</h1>'+
+		'<div id="bodyContent">'+
+		'<p><b>Placeholder INFO</b>, also referred to as <b>Ayers Rock</b>, is a large ' +
+		'sandstone rock formation in the southern part of the '+
+		'Northern Territory, central Australia. It lies 335&#160;km (208&#160;mi) '+
+		'south west of the nearest large town, Alice Springs; 450&#160;km '+
+		'(280&#160;mi) by road. Kata Tjuta and Uluru are the two major '+
+		'features of the Uluru - Kata Tjuta National Park. Uluru is '+
+		'sacred to the Pitjantjatjara and Yankunytjatjara, the '+
+		'Aboriginal people of the area. It has many springs, waterholes, '+
+		'rock caves and ancient paintings. Uluru is listed as a World '+
+		'Heritage Site.</p>'+
+		'<p>Attribution: Uluru, <a href="https://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">'+
+		'https://en.wikipedia.org/w/index.php?title=Uluru</a> '+
+		'(last visited June 22, 2009).</p>'+
+		'</div>'+
+		'</div>'
+	},
+	{
+		name: 'Library',
+		coords: {lat: 13.009965, lng: 74.794198},
+		cont: '<div id="content">'+
+		'<div id="siteNotice">'+
+		'</div>'+
+		'<h1 id="firstHeading" class="firstHeading">Library</h1>'+
+		'<div id="bodyContent">'+
+		'<p><b>Placeholder INFO</b>, also referred to as <b>Ayers Rock</b>, is a large ' +
+		'sandstone rock formation in the southern part of the '+
+		'Northern Territory, central Australia. It lies 335&#160;km (208&#160;mi) '+
+		'south west of the nearest large town, Alice Springs; 450&#160;km '+
+		'(280&#160;mi) by road. Kata Tjuta and Uluru are the two major '+
+		'features of the Uluru - Kata Tjuta National Park. Uluru is '+
+		'sacred to the Pitjantjatjara and Yankunytjatjara, the '+
+		'Aboriginal people of the area. It has many springs, waterholes, '+
+		'rock caves and ancient paintings. Uluru is listed as a World '+
+		'Heritage Site.</p>'+
+		'<p>Attribution: Uluru, <a href="https://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">'+
+		'https://en.wikipedia.org/w/index.php?title=Uluru</a> '+
+		'(last visited June 22, 2009).</p>'+
+		'</div>'+
+		'</div>'
+	},
+	{
+		name: 'Girls\' Block',
+		coords: {lat: 13.013268, lng: 74.795351},
+		cont: '<div id="content">'+
+		'<div id="siteNotice">'+
+		'</div>'+
+		'<h1 id="firstHeading" class="firstHeading">Girls\' Block</h1>'+
+		'<div id="bodyContent">'+
+		'<p><b>Placeholder INFO</b>, also referred to as <b>Ayers Rock</b>, is a large ' +
+		'sandstone rock formation in the southern part of the '+
+		'Northern Territory, central Australia. It lies 335&#160;km (208&#160;mi) '+
+		'south west of the nearest large town, Alice Springs; 450&#160;km '+
+		'(280&#160;mi) by road. Kata Tjuta and Uluru are the two major '+
+		'features of the Uluru - Kata Tjuta National Park. Uluru is '+
+		'sacred to the Pitjantjatjara and Yankunytjatjara, the '+
+		'Aboriginal people of the area. It has many springs, waterholes, '+
+		'rock caves and ancient paintings. Uluru is listed as a World '+
+		'Heritage Site.</p>'+
+		'<p>Attribution: Uluru, <a href="https://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">'+
+		'https://en.wikipedia.org/w/index.php?title=Uluru</a> '+
+		'(last visited June 22, 2009).</p>'+
+		'</div>'+
+		'</div>'
+	},
+	{
+		name: 'Gymnasium',
+		coords: {lat: 13.007170, lng: 74.794728},
+		cont: '<div id="content">'+
+		'<div id="siteNotice">'+
+		'</div>'+
+		'<h1 id="firstHeading" class="firstHeading">Gymnasium</h1>'+
+		'<div id="bodyContent">'+
+		'<p><b>Placeholder INFO</b>, also referred to as <b>Ayers Rock</b>, is a large ' +
+		'sandstone rock formation in the southern part of the '+
+		'Northern Territory, central Australia. It lies 335&#160;km (208&#160;mi) '+
+		'south west of the nearest large town, Alice Springs; 450&#160;km '+
+		'(280&#160;mi) by road. Kata Tjuta and Uluru are the two major '+
+		'features of the Uluru - Kata Tjuta National Park. Uluru is '+
+		'sacred to the Pitjantjatjara and Yankunytjatjara, the '+
+		'Aboriginal people of the area. It has many springs, waterholes, '+
+		'rock caves and ancient paintings. Uluru is listed as a World '+
+		'Heritage Site.</p>'+
+		'<p>Attribution: Uluru, <a href="https://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">'+
+		'https://en.wikipedia.org/w/index.php?title=Uluru</a> '+
+		'(last visited June 22, 2009).</p>'+
+		'</div>'+
+		'</div>'
+	},
+];
