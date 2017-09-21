@@ -1,15 +1,19 @@
+var college_map;
+var all_markers = [];
+
 function initMap() {
 	var LatLng = data[0]['coords'];
-	var college_map = new google.maps.Map(document.getElementById('map'), {
+	college_map = new google.maps.Map(document.getElementById('map'), {
 		zoom: 17,
 		center: LatLng
 	});
 	for (var i = 0; i < data.length; i++) {
-		var marker = new google.maps.Marker({
+		 var marker = new google.maps.Marker({
 			position: data[i]['coords'],
 			map: college_map,
 			title: data[i]['name']
 		});
+		all_markers.push(marker);
 		var infoWindow = new google.maps.InfoWindow();
 		google.maps.event.addListener(marker, 'click', (function(marker, i) {
 		return function() {
@@ -20,9 +24,23 @@ function initMap() {
 		);
 	}
 }
+
+
 $(document).ready( function() {
-	$('.chips-placeholder').material_chip({
-		placeholder: 'Enter a tag',
-		secondaryPlaceholder: '+Tag',
-	});
+	$('input.autocomplete').autocomplete({
+		data: data.reduce(function(accumulator, currentDatum){
+			accumulator[currentDatum.name] = null;
+			return accumulator;
+		},{}),
+		limit:5,
+		onAutocomplete:function(val){
+			selectedMarker = all_markers.filter(function(marker){
+				if(marker.title===val)
+					return true;
+			})[0];
+			new google.maps.event.trigger(selectedMarker, 'click');
+		},
+	})
 });
+
+
