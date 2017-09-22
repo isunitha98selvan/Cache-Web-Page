@@ -2,6 +2,10 @@
 	height: 100vh;
 }
 
+#place-tags {
+	text-align: center;
+}
+
 html, body {
 	height: 100%;
 	margin: 0;
@@ -21,6 +25,7 @@ html, body {
 
 .p-left {
 	padding-top: 80px !important;
+	overflow-y: auto !important;
 }
 
 .dir-heading {
@@ -29,4 +34,14 @@ html, body {
 
 .fields {
 	margin-bottom: 15px;
+}
+
+.cache-heading {
+	margin-bottom: 0px;
+	font-weight: 300;
+}
+
+.des-line {
+	font-weight: 300;
+	margin-bottom: 30px;
 }

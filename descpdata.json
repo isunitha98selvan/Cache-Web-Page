@@ -13,13 +13,217 @@ var data = [
 	},
 	{
 		"name": "State Bank Of India",
-		"coords": {"lat": 13.008955, "lng": 74.794070 },
+		"coords": {"lat": 13.008955, "lng": 74.794070},
 		"cont": "<div id=\"content\">"+
 		"<div id=\"siteNotice\">"+
 		"</div>"+
 		"<h3 id=\"firstHeading\" class=\"firstHeading\">State Bank Of India</h3>"+
 		"<div id=\"bodyContent\">"+
 		"<p>Student loans? Debit Cards? NITK Student Account? Out of cash? Too much cache? (Pun Intended)<br>(ATM Close by)<br>Ph: 0824 2449360<br>Timings: Mon-Sat 10A.M-4P.M, 2nd and 4th Saturday and all Sundays Holiday.</p>"+
+		"</div>"+
+		"</div>"
+	},
+	{
+		"name": "Canara Bank",
+		"coords": {"lat": 13.008638, "lng": 74.794157},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h3 id=\"firstHeading\" class=\"firstHeading\">Canara Bank</h3>"+
+		"<div id=\"bodyContent\">"+
+		"<p>Student loans? Debit Cards? NITK Student Account? Out of cash? Too much cache? (Pun Intended)<br>‎0824-2475631 (ATM Close by)<br>Timings : Monday to Saturday. Business Hours: 10AM-2PM & 2:30PM-3:30PM<br>Banking Hours: 10AM-5PM<br>Location: Shopping Complex. near SBI</p>"+
+		"</div>"+
+		"</div>"
+	},
+	{
+		"name": "Canara Bank ATM (Nandini Circle)",
+		"coords": {"lat": 13.012954, "lng": 74.796434},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h3 id=\"firstHeading\" class=\"firstHeading\">Canara Bank ATM (Nandini Circle)</h3>"+
+		"<div id=\"bodyContent\">"+
+		"<p>SBI ATM out of cash? Canara got you covered.</p>"+
+		"</div>"+
+		"</div>"
+	},
+	{
+		"name": "Guest Houses",
+		"coords": {"lat": 13.012902, "lng": 74.791652},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h3 id=\"firstHeading\" class=\"firstHeading\">Guest Houses</h3>"+
+		"<div id=\"bodyContent\">"+
+		"<p>In the more luxurious part of campus, the pristine NITK beach in its close vicinity, rest the three NITK Guest Houses.<br>Vikram Sarabhai, CV Rama, JC Bose (ISH), Homi Bhabha<br>Let NITK make a good impression on your folks when they come over to visit you.  Make sure you book in advance.<br>To book: Talk to the guy at AMUL (Near Sports Complex)<br>Mr. Vitlapur,<br>Manager/Care Taker<br>Phone : 0824-2474000 intercom 3820<br>0824-2474065</p>"+
+		"</div>"+
+		"</div>"
+	},
+	{
+		"name": "Cycle Shop",
+		"coords": {"lat": 13.012756, "lng": 74.796618},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h3 id=\"firstHeading\" class=\"firstHeading\">Cycle Shop</h3>"+
+		"<div id=\"bodyContent\">"+
+		"<p>Because your two wheeled metal frame is an emotional being, desperate for a little care and attention at times. After dragging it to class everyday. Have mercy on those pedals!<br>Location: Nandini Circle</p>"+
+		"</div>"+
+		"</div>"
+	},
+	{
+		"name": "HCC",
+		"coords": {"lat": 13.009600, "lng": 74.796502}, 
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h3 id=\"firstHeading\" class=\"firstHeading\">HCC</h3>"+
+		"<div id=\"bodyContent\">"+
+		"<p>Strategically placed near the NITK Main ground, the HCC is your first 'point-of-care’ for any and every health issue, be it a bad cold, or god forbid what else. Not to mention, all your treatment and medical expenses are covered under NITK Insurance. So, don’t waste time if you’ve got a case of the flu.<br>Also, they have an Ambulance that will come pick you up from anywhere in campus!</p>"+
+		"</div>"+
+		"</div>"
+	},
+	{
+		"name": "Gents Hair Parlour",
+		"coords": {"lat": 13.008712, "lng":74.794159},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h3 id=\"firstHeading\" class=\"firstHeading\">Gents Hair Parlour</h3>"+
+		"<div id=\"bodyContent\">"+
+		"<p>Granted, we are all savages here and haircuts are unlikely to pop up anywhere in our stream of thought, it’d still do you good to pay a visit to the men of blades, when you need to look presentable.<br>Location: Shopping Complex, Near SBI<br>Timings:  8 AM - 8 PM, 1 PM - 2 PM Lunch</p>"+
+		"</div>"+
+		"</div>"
+	},
+	{
+		"name": "Ladies Beauty Parlour",
+		"coords": {"lat": 13.013035, "lng": 74.796424},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h3 id=\"firstHeading\" class=\"firstHeading\">Ladies Beauty Parlour</h3>"+
+		"<div id=\"bodyContent\">"+
+		"<p>For all the amazing ladies in campus, your place to go when in dire need of help to overcome any beauty crisis.<br>7795086585<br>Timings: 10 AM to 6:45, Sunday Holiday</p>"+
+		"</div>"+
+		"</div>"
+	},
+	{
+		"name": "Sri Ganesh Textiles",
+		"coords": {"lat": 13.008734, "lng": 74.794142}, 
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h3 id=\"firstHeading\" class=\"firstHeading\">Sri Ganesh Textiles</h3>"+
+		"<div id=\"bodyContent\">"+
+		"<p>Contact: 0824-2476510, 9741479049<br>We’ll just list out all they have on offer: T-Shirts, Prev Edition NITK T-Shirts, Beds and Bed Sheets, Table covers, Workshop Uniforms and much more.<br>Location: Shopping Complex, near SBI</p>"+
+		"</div>"+
+		"</div>"
+	},
+	{
+		"name": "Mumbai Tailors",
+		"coords": {"lat": 13.008695, "lng": 74.794155},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h3 id=\"firstHeading\" class=\"firstHeading\">Mumbai Tailors</h3>"+
+		"<div id=\"bodyContent\">"+
+		"<p>Contact: 9844234829<br>Timings: 8 AM - 9 PM<br>Besides tailoring your workshop uniforms, they claim to be ‘GENTS SPECIALISTS’ with stock on footwear, suitings, jeans, pyjamas and even toys!<br>Location: Shopping Complex, near SBI</p>"+
+		"</div>"+
+		"</div>"
+	},
+	{
+		"name": "Ramesh Tailor",
+		"coords": {"lat": 13.012903, "lng": 74.796359},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h3 id=\"firstHeading\" class=\"firstHeading\">Ramesh Tailor</h3>"+
+		"<div id=\"bodyContent\">"+
+		"<p>If it’s just a tailor that you want, you have one in Mr. Ramesh.<br>Ph: 8710932817<br>Location: Nandini Circle (Next to Crumbz)</p>"+
+		"</div>"+
+		"</div>"
+	},
+	{
+		"name": "Mudrika",
+		"coords": {"lat": 13.008535, "lng": 74.794168},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h3 id=\"firstHeading\" class=\"firstHeading\">Mudrika</h3>"+
+		"<div id=\"bodyContent\">"+
+		"<p>Missed a lot of notes in the classes you slept or bunked? Need to print/bind an assignment? Need to get Photostats of &quot;Important Documents&quot;?<br>Need copies of your Passport photo? Mudrika has been the prefered choice for NITKians for quite a while now.<br>Mudrika Timings: 9:00 AM - 1:00 PM, 1:30 PM - 5:45 PM<br>Contact: mudrikaa.nitk@gmail.com</p>"+
+		"</div>"+
+		"</div>"
+	},
+	{
+		"name": "7th Block Photostat",
+		"coords": {"lat": 13.007971, "lng": 74.796308},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h3 id=\"firstHeading\" class=\"firstHeading\">7th Block Photostat</h3>"+
+		"<div id=\"bodyContent\">"+
+		"<p>Missed a lot of notes in the classes you slept or bunked? Need to print an assignment? 7th Block Photostat shop was started because you don’t have to walk a lot for this! And they’ve been gaining popularity credits to their superior quality lasers prints!</p>"+
+		"</div>"+
+		"</div>"
+	},
+	{
+		"name": "Yennar Electricals",
+		"coords": {"lat": 13.008618, "lng": 74.794143},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h3 id=\"firstHeading\" class=\"firstHeading\">Yennar Electricals</h3>"+
+		"<div id=\"bodyContent\">"+
+		"<p>From picking up your Amazon shipment, to recharging your phone, to bagging a new electronic accessory, from cables to bulbs to adaptors, Yennar is your one stop shop for electronics in the campus.<br>Location: Shopping Complex, Near SBI<br>Contact: 9845186864</p>"+
+		"</div>"+
+		"</div>"
+	},
+	{
+		"name": "Laundry Shop",
+		"coords": {"lat": 13.013179, "lng": 74.796424},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h3 id=\"firstHeading\" class=\"firstHeading\">Laundry Shop</h3>"+
+		"<div id=\"bodyContent\">"+
+		"<p>&quot;Laundry is part of the curse from the Original Sin. If Eve hadn't bit that darn apple, there would be no clothes to wash.&quot; thought every person who ever did laundry.<br>Feeling lazy? Or just plain tired? Laundry Services at the Nandini Circle will deal with all your dirty laundry.<br>Timings: 9:30 AM - 6:30 PM<br>7204231287<br>8549853743</p>"+
+		"</div>"+
+		"</div>"
+	},
+	{
+		"name": "Co-operative Society (Near SBI ATM)",
+		"coords": {"lat": 13.008756, "lng": 74.794111},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h3 id=\"firstHeading\" class=\"firstHeading\">Co-operative Society (Near SBI ATM)</h3>"+
+		"<div id=\"bodyContent\">"+
+		"<p>For the person who has everything, they have everything else. You name it, they have it! Well, more often than not...<br><br>Location: Shopping Complex, Near SBI<br>Timings: 9 AM - 6 PM<br>Saturday: 9 AM - 1 PM</p>"+
+		"</div>"+
+		"</div>"
+	},
+	{
+		"name": "Co-operative Society (Near Nandini Circle)",
+		"coords": {"lat": 13.012740, "lng": 74.796515},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h3 id=\"firstHeading\" class=\"firstHeading\">Co-operative Society (Near Nandini Circle)</h3>"+
+		"<div id=\"bodyContent\">"+
+		"<p>For the person who has everything, they have everything else. You name it, they have it! Well, more often than not...<br>Location: Nandini Circle<br>Timings: 9:30 AM - 1 PM & 4:30 PM - 8:30 PM<br>Sunday Holiday</p>"+
+		"</div>"+
+		"</div>"
+	},
+	{
+		"name": "Reddy's Tours And Travels",
+		"coords": {"lat": 13.012739, "lng": 74.793189},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h3 id=\"firstHeading\" class=\"firstHeading\">Reddy's Tours And Travels</h3>"+
+		"<div id=\"bodyContent\">"+
+		"<p>Need to book a cab, a bus, a train? Recharge your phone? Or just go there and get something to eat! Reddy’s is a multipurpose spot!<br>They also handle fax, courier, laser printing and binding.<br>Ph: 9343883989, 9845188093</p>"+
 		"</div>"+
 		"</div>"
 	},

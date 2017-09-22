@@ -79,7 +79,7 @@ $(document).ready( function() {
 
 	for (var x = 0; x < data.length; x++) {
 		$("#place-tags").append("<div class=\"chip\">" + data[x]["name"] + "</div>")
-	}
+	}	
 });
 
 function getAllNames(data){
