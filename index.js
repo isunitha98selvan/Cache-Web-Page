@@ -16,7 +16,7 @@ function initMap() {
 	directionsDisplay.setMap(college_map);
 	
 	for (var i = 0; i < data.length; i++) {
-        	var marker = new google.maps.Marker({
+		var marker = new google.maps.Marker({
 			position: data[i]['coords'],
 			map: college_map,
 			title: data[i]['name']
@@ -24,15 +24,14 @@ function initMap() {
 		all_markers.push(marker);
 		var infoWindow = new google.maps.InfoWindow();
 		google.maps.event.addListener(marker, 'click', (function(marker, i) {
-		return function() {
+			return function() {
 				infoWindow.setContent(data[i]['cont']);
 				infoWindow.open(map, marker);
-				}
-			})(marker, i)
+			}
+		})(marker, i)
 		);
 	}
 }
-
 
 $(document).ready( function() {
 	$('#autocomplete-input-search').autocomplete({
@@ -41,7 +40,7 @@ $(document).ready( function() {
 		onAutocomplete:function(val){
 			selectedMarker = all_markers.filter(function(marker){ return marker.title===val?true: false;})[0];
 			new google.maps.event.trigger(selectedMarker, 'click');
-			}
+		}
 	});
 
 
@@ -53,7 +52,7 @@ $(document).ready( function() {
 			LatLng = selectedMarker.position;
 			from = new google.maps.LatLng(LatLng.lat(), LatLng.lng());
 			if(to!==null) findRoute(from,to);
-			}
+		}
 	});
 
 
@@ -65,7 +64,7 @@ $(document).ready( function() {
 			LatLng = selectedMarker.position;
 			to = new google.maps.LatLng(LatLng.lat(), LatLng.lng());
 			findRoute(from,to);
-			}
+		}
 	});
 
 	$('#autocomplete-input-directions-from').keyup(function(){
@@ -78,33 +77,27 @@ $(document).ready( function() {
 			$('#autocomplete-input-directions-to').removeAttr("disabled");
 	})
 
+	for (var x = 0; x < data.length; x++) {
+		$("#place-tags").append("<div class=\"chip\">" + data[x]["name"] + "</div>")
+	}
 });
-
-
-
-
-
-
-
 
 function getAllNames(data){
 	return data.reduce(function(accumulator, currentDatum){
-							accumulator[currentDatum.name] = null;
-							return accumulator;
-						},{});
+		accumulator[currentDatum.name] = null;
+		return accumulator;
+	},{});
 }
 
-
-
 function findRoute(from, to) {
-  var request = {
-      origin: from,
-      destination: to,
-      travelMode: google.maps.TravelMode["WALKING"]
-  };
-  directionsService.route(request, function(response, status) {
-    if (status == 'OK') {
-      directionsDisplay.setDirections(response);
-    }
-  });
+	var request = {
+		origin: from,
+		destination: to,
+		travelMode: google.maps.TravelMode["WALKING"]
+	};
+	directionsService.route(request, function(response, status) {
+		if (status == 'OK') {
+			directionsDisplay.setDirections(response);
+		}
+	});
 }

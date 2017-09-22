@@ -20,5 +20,13 @@ html, body {
 }
 
 .p-left {
-	padding-top: 70px !important;
+	padding-top: 80px !important;
+}
+
+.dir-heading {
+	font-weight: 300 !important;
+}
+
+.fields {
+	margin-bottom: 15px;
 }
