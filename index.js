@@ -104,7 +104,7 @@ $(document).ready( function() {
 
 	if (isMobile.any()) {
 		console.log($(window).height());
-		$('.row #map').css('height', parseInt($(window).height() - $('header').height() - $('.p-left').height() - 30) + "px");
+		$('.row #map').css('height', parseInt($(window).height() - $('header').height() - $('.p-left').height() - 25) + "px");
 	}
 	else {
 		$('.row #map').css('height', parseInt($(window).height() - $('header').height()) + "px");
