@@ -79,7 +79,36 @@ $(document).ready( function() {
 
 	for (var x = 0; x < data.length; x++) {
 		$("#place-tags").append("<div class=\"chip\">" + data[x]["name"] + "</div>")
-	}	
+	}
+
+	var isMobile = {
+		Android: function() {
+			return navigator.userAgent.match(/Android/i);
+		},
+		BlackBerry: function() {
+			return navigator.userAgent.match(/BlackBerry/i);
+		},
+		iOS: function() {
+			return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+		},
+		Opera: function() {
+			return navigator.userAgent.match(/Opera Mini/i);
+		},
+		Windows: function() {
+			return navigator.userAgent.match(/IEMobile/i);
+		},
+		any: function() {
+			return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+		}
+	};
+
+	if (isMobile.any()) {
+		console.log($(window).height());
+		$('.row #map').css('height', parseInt($(window).height() - $('header').height() - $('.p-left').height() - 30) + "px");
+	}
+	else {
+		$('.row #map').css('height', parseInt($(window).height() - $('header').height()) + "px");
+	}
 });
 
 function getAllNames(data){

@@ -1,22 +1,22 @@
-#map {
-	height: 100vh;
+nav {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.acm-logo {
+	height: 60px;
 }
 
 #place-tags {
 	text-align: center;
 }
 
+.row {
+	margin: 0;
+}
+
 html, body {
 	height: 100%;
-	margin: 0;
-	padding: 0;
-}	
-
-.p-left, .p-right {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	z-index: 1;
 }
 
 .p-right {
@@ -24,7 +24,7 @@ html, body {
 }
 
 .p-left {
-	padding-top: 80px !important;
+	padding-top: 10px !important;
 	overflow-y: auto !important;
 }
 
@@ -44,4 +44,14 @@ html, body {
 .des-line {
 	font-weight: 300;
 	margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 800px) {
+	.p-left {
+		margin-bottom: 15px !important;
+	}
+
+	.des-line {
+		margin-bottom: 0px !important;
+	}
 }
