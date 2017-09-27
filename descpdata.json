@@ -227,4 +227,438 @@ var data = [
 		"</div>"+
 		"</div>"
 	},
+	
+	{
+		"name": "Academics",
+		"coords": {"lat":13.011060, "lng": 74.794392},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h3 id=\"firstHeading\" class=\"firstHeading\">Academics</h3>"+
+		"<div id=\"bodyContent\">"+
+		"<p>Ground floor<br>Main seminar hall and ISTE seminar hall: Taking part in a competition and have forgotten the venue? Want to attend a talk on something but have forgotten where it’s being held?These halls would be the first places to check.<br><br>Cash section (timings 9:15-12:15 and 1:45-4:00):Have any academics related cash dealings to be done, this is where you should head.<br><br>First floor:<br>Registrar office(K Rabindranath): Have some student records related work? Better head to this office after filling your form because you definitely need a signature from the registrar.<br>Phone: +91-824-2473006 / +91-824-2474068<br>Email: rnath@nitk.ac.in, registrar@nitk.ac.in<br>Prof. S.M.Hegde<br>Office of DSW: The college official in charge of welfare and easy life of students <br>Phone: +91-824-2473004, 91-824-2473252<br>Email: smhegde@nitk.ac.in, smhegde59@gmail.com<br>Prof. Ananthanarayana V. S<br>Office of Dean for research and consultancy :<br>Phone: +91-824-247067, +91-824-2473004<br>Email: dean.rc@nitk.edu.in  Prof.Uma Maheshwar Rao<br>Office of the Director<br>Email: director@nitk.ac.in<br>A U Ravi Shankar<br>Dean Planning and Development<br>Phone: +91-824-2474039<br>mail: aurshankar@gmail.com,aur@nitk.ac.in <br>Ashok Babu T P<br>Dean Faculty Welfare<br>Phone: +91-824-2474038<br>Email: tpashok@rediffmail.com<br>Prof.Katta Venkataramana<br>Office of the Academic Dean<br>Phone: +91-824-2474040<br>Email: deanacad@nitk.ac.in<br>Assistant Registrar (academic)<br>Kamlabh Kumar Singh<br>Phone: +91-824-2473099<br>Email: aracademic@nitk.ac.in<br><br>Second floor<br>Office of Assistant Registrar (Gaurav Choudary)<br>Phone: +91-824-2473990<br>Email: gaurav@nitk.ac.in<br>SC-ST cell<br>Room No.22, 2nd Floor, Main Building<br>Email: nitk.scst.cell [at] gmail.com<br>Phone: 0824-2474000, ext : 3024<br>Dr. P E Jagadeesh Babu<br>E-mail: jagadeesh_78@yahoo.com<br>Telephone: +91-824-2474000 Extn. 3640</p>"+
+		"</div>"+
+		"</div>"
+	},
+	
+	{
+		"name": "Central Library",
+		"coords": {"lat":13.009969, "lng":  74.794078},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h3 id=\"firstHeading\" class=\"firstHeading\">Central Library</h3>"+
+		"<div id=\"bodyContent\">"+
+		"<p>Library Opening Hours:<br>Monday to Friday: 8:00 AM to 11:00 PMSaturday & Sunday: 8:00 AM to 4:00 PM<br>On General Holidays: 8:00 AM to 12:00 Noon<br>Ph: (0824) 247 3061 / 3062 / 3063<br><br>Book Bank (First Floor): <br>The books are lent to all students for home reading for 30 days<br>Special collection for SC/ST students - Students can borrow up to 5 books from Book-Bank for a period of one semester<br><br>Book-Bank Working Hours:<br>Monday to Friday: 2.00 p.m. to 9.00 p.m.<br>Saturday: 9.00 a.m. to 12.00 noon<br><br>Photocopy Shop(First Floor):<br>Need a photocopy of your friend's assignment or notes? you know where to go!<br><br>Reading Room(Second Floor):<br>It's Exam Time!!<br>Not able to concentrate in your room? This is where you should head.</p>"+
+		"</div>"+
+		"</div>"
+	},
+	
+	{
+		"name": "Department of Chemistry",
+		"coords": {"lat":13.008786 , "lng":74.794852 },
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h3 id=\"firstHeading\" class=\"firstHeading\">Department of Chemistry</h3>"+
+		"<div id=\"bodyContent\">"+
+		"<p>Denthaje Krishna Bhat , Professor and Head<br>Department of Chemistry, NITK, Surathkal<br>P. O. Srinivasnagar, Mangalore - 575 025<br>Karnataka, India.<br>Hot line: +91-824-2474046, +91-824-2473043, +91-824-2473202<br>Email: hodchemistry@nitk.edu.in</p>"+
+		"</div>"+
+		"</div>"
+	},
+	
+	{
+		"name": "Department of Applied Mechanics and Hydraulics",
+		"coords": {"lat":13.012255 , "lng":74.794734 },
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h3 id=\"firstHeading\" class=\"firstHeading\">Department of Applied Mechanics and Hydraulics</h3>"+
+		"<div id=\"bodyContent\">"+
+		"<p>Mahesha A., Professor and Head<br>P. O. Srinivasnagar, Mangaluru - 575 025<br>Karnataka, India.<br>Hot line: +91-0824-2474050<br>appmech@nitk.ac.in</p>"+
+		"</div>"+
+		"</div>"
+	},
+	
+	
+	{
+		"name": "Department of Computer Science and Engineering",
+		"coords": {"lat":13.011387 , "lng":74.792143 },
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h3 id=\"firstHeading\" class=\"firstHeading\">Department of Computer Science and Engineering</h3>"+
+		"<div id=\"bodyContent\">"+
+		"<p>P Santhi Thilagam<br>Associate Professor and Head<br>Department of CSE, NITK, Surathkal<br>P. O. Srinivasnagar, Mangalore - 575 025<br>Karnataka, India.<br>Hot line: +91-0824-2474060<br>Email: hodcse@nitk.ac.in</p>"+
+		"</div>"+
+		"</div>"
+	},
+	
+	{
+		"name": "Department of E&C",
+		"coords": {"lat":13.011649 , "lng":74.792272 },
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h3 id=\"firstHeading\" class=\"firstHeading\">Department of E&C</h3>"+
+		"<div id=\"bodyContent\">"+
+		"<p>Dr. U. Shripathi Acharya<br> Professor and Head <br>P. O. Srinivasnagar, Mangalore - 575 025<br>Karnataka, India.<br>Hot line: +91-0824-2473046<br>Email:sripati.acharya1@gmail.com</p>"+
+		"</div>"+
+		"</div>"
+	},
+	
+	{
+		"name": "Department of MACS",
+		"coords": {"lat":13.009622 , "lng":74.794639 },
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h3 id=\"firstHeading\" class=\"firstHeading\">Department of MACS</h3>"+
+		"<div id=\"bodyContent\">"+
+		"<p>B R Shankar<br>Associate Professor and Head <br>P. O. Srinivasnagar, Mangalore - 575 025<br>Karnataka, India.<br>Hot line: +91-0824-2474048<br>Email:hodmacs@nitk.ac.in</p>"+
+		"</div>"+
+		"</div>"
+	},
+	
+	{
+		"name": "Department of MME",
+		"coords": {"lat":13.010538, "lng": 74.795128 },
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h3 id=\"firstHeading\" class=\"firstHeading\">Department of MME</h3>"+
+		"<div id=\"bodyContent\">"+
+		"<p>Dr. Udaya Bhat K<br>Head,Department of MME, NITK, Surathkal <br>P. O. Srinivasnagar, Mangalore - 575 025<br>Karnataka, India.<br>Hot line: Hot line: +91-0824-2474000 Extn. 3050<br>Email:headofmetallurgy@yahoo.com</p>"+
+		"</div>"+
+		"</div>"
+	},
+	
+	{
+		"name": "Department of Physics",
+		"coords": {"lat":13.008786 , "lng":74.794852},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h3 id=\"firstHeading\" class=\"firstHeading\">Department of Physics</h3>"+
+		"<div id=\"bodyContent\">"+
+		"<p>Dr. M.N. Satyanarayan<br>Associate Professor and Head<br>Department of Physics, NITK, Surathkal <br>P. O. Srinivasnagar, Mangalore - 575 025<br>Karnataka, India.<br>Hot line: Hot line: +91-0824-2473052<br>Email:physicsnitk@gmail.com</p>"+
+		"</div>"+
+		"</div>"
+	},
+	
+	{
+		"name": "School of Management",
+		"coords": {"lat":13.008786 , "lng":74.794852},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h3 id=\"firstHeading\" class=\"firstHeading\">School of Management</h3>"+
+		"<div id=\"bodyContent\">"+
+		"<p>K B Kiran<br> Professor and Head<br>School of Management, NITK, Surathkal<br>P. O. Srinivasnagar, Mangalore - 575 025<br>Karnataka, India.<br>Hot line: Hot line: +91-824-2474000 (Extn. 3226),+91-0824-2474000 (Extn. 3079)<br>Mobile:+91 9886585458<br>Email:kunjangadabkiran2@gmail.com<br>kbheem@nitk.ac.in<br>nitkhumanities@gmail.com</p>"+
+		"</div>"+
+		"</div>"
+	},
+	
+	{
+		"name": "Department of Chemical Engineering",
+		"coords": {"lat":13.010636, "lng": 74.795564},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h3 id=\"firstHeading\" class=\"firstHeading\">Department of Chemical Engineering</h3>"+
+		"<div id=\"bodyContent\">"+
+		"<p>Raj Mohan B<br>Associate Professor and Head<br>Department of Chemical Engineering, NITK, Surathka<br>P. O. Srinivasnagar, Mangalore - 575 025<br>Karnataka, India.<br>Hot line: Hot line:+91-0824-2474057 <br>Mobile:+91 9886585458<br>Email:hodchemical@nitk.ac.in</p>"+
+		"</div>"+
+		"</div>"
+	},
+	
+	{
+		"name": "Department of Civil Engineering",
+		"coords": {"lat":13.012223 , "lng": 74.793954},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h3 id=\"firstHeading\" class=\"firstHeading\">Department of Civil Engineering</h3>"+
+		"<div id=\"bodyContent\">"+
+		"<p>Dr. Varghese George<br>Professor and Head<br>Department of Civil Engineering, NITK, Surathkal<br>P. O. Srinivasnagar, Mangalore - 575 025<br>Karnataka, India.<br>Hot line:+91-0824-2473041<br>Fax +91-0824-2474033<br>Email:hodcivil@nitk.ac.in</p>"+
+		"</div>"+
+		"</div>"
+	},
+	
+	
+	
+	{
+		"name": "Department of Electrical and Electronics Engineering",
+		"coords": {"lat":13.010905 , "lng":74.792613},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h3 id=\"firstHeading\" class=\"firstHeading\">Department of Electrical and Electronics Engineering</h3>"+
+		"<div id=\"bodyContent\">"+
+		"<p>B  Venkatesa Permul<br>Associate Professor and Head of the Department<br>Department of Electrical and Electronics Engineering , NITK , Surathkal<br>P. O. Srinivasnagar, Mangalore - 575 025<br>Karnataka, India.<br>Hot line:+91-824-2473045<br>Fax:+91-824-2474039<br>Email:hodee@nitk.ac.in</p>"+
+		"</div>"+
+		"</div>"
+	},
+	
+	{
+		"name": "Department of Information Technology",
+		"coords": {"lat":13.010905 , "lng":74.792613},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h3 id=\"firstHeading\" class=\"firstHeading\">Department of Information Technology</h3>"+
+		"<div id=\"bodyContent\">"+
+		"<p>G. Ram Mohana Reddy<br>Professor and Head<br>Department of Information Technology,NITK,Surathkal<br>P. O. Srinivasnagar, Mangalore - 575 025<br>Karnataka, India.<br>Hot line:+91-824-2474056<br>Email: infotech@nitk.ac.in</p>"+
+		"</div>"+
+		"</div>"
+	},
+	
+	{
+		"name": "Department of Mining Engineering",
+		"coords": {"lat":13.010905 , "lng":74.792613},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h3 id=\"firstHeading\" class=\"firstHeading\">Department of Mining Engineering</h3>"+
+		"<div id=\"bodyContent\">"+
+		"<p>M. Govinda Raj<br>Head of the Department<br>Department of Mining Engineering,NITK,Surathkal<br>P. O. Srinivasnagar, Mangalore - 575 025<br>Karnataka, India.<br>Hot line:+91-0824-2473051<br>Email:mininghod@nitk.ac.in</p>"+
+		"</div>"+
+		"</div>"
+	},
+	
+	{
+		"name": "Swimming Pool",
+		"coords": {"lat":13.011339, "lng":74.797537},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h3 id=\"firstHeading\" class=\"firstHeading\">Swimming Pool</h3>"+
+		"<div id=\"bodyContent\">"+
+		"<p>Dive in for a refreshing feel on a hot summer day. To register, you need to take a copy of your fee receipt/Admission slip and submit it at the swimming pool. You will be given a medical certificate, which you must get signed at the HCC and you're good to go.</p>"+
+		"</div>"+
+		"</div>"
+	},
+	
+	{
+		"name": "Sports complex",
+		"coords": {"lat":13.009240, "lng": 74.797179},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h3 id=\"firstHeading\" class=\"firstHeading\">Sports complex</h3>"+
+		"<div id=\"bodyContent\">"+
+		"<p>Your one stop destination to collect all sports equipment. Don't forget to bring your ID Card though. It also has badminton courts and tabletennis tables which are perennially full. It's a rat race to get an opportunity to play if you go during rush hour.</p>"+
+		"</div>"+
+		"</div>"
+	},
+	
+	{
+		"name": "Basketball Court",
+		"coords": {"lat":13.011076, "lng": 74.796891},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h3 id=\"firstHeading\" class=\"firstHeading\">Basketball Court</h3>"+
+		"<div id=\"bodyContent\">"+
+		"<p> After 5pm everyday, you'll see the committed basketball team working a sweat here.</p>"+
+		"</div>"+
+		"</div>"
+	},
+	
+	{
+		"name": "Volleyball Court",
+		"coords": {"lat":13.010836, "lng":74.797764},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h3 id=\"firstHeading\" class=\"firstHeading\">Volleyball Court</h3>"+
+		"<div id=\"bodyContent\">"+
+		"<p> Can you spike the ball? Or are you just a beginner? You are welcome to join in with the crowd and enjoy a good game.</p>"+
+		"</div>"+
+		"</div>"
+	},
+	
+	{
+		"name": "Throwball Court",
+		"coords": {"lat":13.010836, "lng": 74.797764},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h3 id=\"firstHeading\" class=\"firstHeading\">Throwball Court</h3>"+
+		"<div id=\"bodyContent\">"+
+		"<p> Occasionally you stumble upon a few girls playing Throwball here. But generally its as deserted as the Sahara.</p>"+
+		"</div>"+
+		"</div>"
+	},
+	
+	{
+		"name": "Football field",
+		"coords": {"lat":13.009920, "lng":74.797306},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h3 id=\"firstHeading\" class=\"firstHeading\">Football field</h3>"+
+		"<div id=\"bodyContent\">"+
+		"<p>The center of activity! If you're a people watcher this place is a feast for your eyes. You'll always see a myriad of boys playing football, sometimes even cricket. You'll even stumble Upon the occasional jogger running Laps</p>"+
+		"</div>"+
+		"</div>"
+	},
+	
+	{
+		"name": "Physical Director Office",
+		"coords": {"lat":13.009852, "lng":74.795593},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h3 id=\"firstHeading\" class=\"firstHeading\">Physical Director Office</h3>"+
+		"<div id=\"bodyContent\">"+
+		"<p>This is where you can meet the physical director of NITK. Please do take note that he's not always in his office.</p>"+
+		"</div>"+
+		"</div>"
+	},
+	
+	{
+		"name": "Nandini",
+		"coords": {"lat":13.012680, "lng":74.796333},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h3 id=\"firstHeading\" class=\"firstHeading\">Nandini</h3>"+
+		"<div id=\"bodyContent\">"+
+		"<p>A nice place to grab a quick refreshment or to chill with friends, offering a variety of snacks.</p>"+
+		"</div>"+
+		"</div>"
+	},
+	
+	
+	{
+		"name": "Fresh and honest",
+		"coords": {"lat":13.012858, "lng": 74.794364},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h3 id=\"firstHeading\" class=\"firstHeading\">Fresh and honest</h3>"+
+		"<div id=\"bodyContent\">"+
+		"<p>For all the coffee lovers out there, F&H is the place to go,There are two outlets of F&H, one outside the GB and one in front of the 4th block boys hostel. </p>"+
+		"</div>"+
+		"</div>"
+	},
+	
+	{
+		"name": "Amul",
+		"coords": {"lat":13.008993, "lng": 74.796839},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h3 id=\"firstHeading\" class=\"firstHeading\">Amul</h3>"+
+		"<div id=\"bodyContent\">"+
+		"<p>Located right next to the sports complex, this place is the perfect stop to grab a quick snack when you're on your way to class or back to your block. P.S best samosa ever.</p>"+
+		"</div>"+
+		"</div>"
+	},
+	
+	{
+		"name": "Nescafe",
+		"coords": {"lat":13.007412, "lng": 74.796837},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h3 id=\"firstHeading\" class=\"firstHeading\">Nescafe</h3>"+
+		"<div id=\"bodyContent\">"+
+		"<p>Located in between the first and second block, this is the place to go if you have plenty of free time and you fancy a nice plate of hot maggi. </p>"+
+		"</div>"+
+		"</div>"
+	},
+	
+	{
+		"name": "Ocean pearl",
+		"coords": {"lat":13.008463, "lng": 74.795179},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h3 id=\"firstHeading\" class=\"firstHeading\">Ocean pearl</h3>"+
+		"<div id=\"bodyContent\">"+
+		"<p>The only canteen in the campus that operates during the day, this place has a lot of options to choose from for a proper meal within reasonable prices.  </p>"+
+		"</div>"+
+		"</div>"
+	},
+	
+	{
+		"name": "Girls Block Night Canteen",
+		"coords": {"lat":13.013645, "lng": 74.795113},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h3 id=\"firstHeading\" class=\"firstHeading\">Girls Block Night Canteen</h3>"+
+		"<div id=\"bodyContent\">"+
+		"<p>Known for the best chicken tikka biryani you’ll ever have.  Plus they offer a great variety of dosas for a quick snack.<br>Contact: 7760921064,7760921074</p>"+
+		"</div>"+
+		"</div>"
+	},
+	
+	{
+		"name": "3rd Block Night Canteen",
+		"coords": {"lat":13.008096, "lng": 74.796137},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h3 id=\"firstHeading\" class=\"firstHeading\">3rd Block Night Canteen</h3>"+
+		"<div id=\"bodyContent\">"+
+		"<p>A vegetarians paradise. Cheap and quick. Famous for their vada pavs and chole bhature. <br>Contact: 9740687393,9902487595</p>"+
+		"</div>"+
+		"</div>"
+	},
+	
+	{
+		"name": "8th Block Night Canteen",
+		"coords": {"lat":13.007338, "lng": 74.793825},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h3 id=\"firstHeading\" class=\"firstHeading\">8th Block Night Canteen</h3>"+
+		"<div id=\"bodyContent\">"+
+		"<p>Are you broke and bored of your mess? But still wanna fill your tummy? Cheap, filing and amazing egg dishes available here. <br>Contact: 8971146628</p>"+
+		"</div>"+
+		"</div>"
+	},
+	
+	{
+		"name": "7th Block Night Canteen",
+		"coords": {"lat":13.007849, "lng": 74.796301},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h3 id=\"firstHeading\" class=\"firstHeading\">7th Block Night Canteen</h3>"+
+		"<div id=\"bodyContent\">"+
+		"<p> Are you finding it hard to survive without chicken? Check out the 7th block for amazing shawarmas, biryani, chicken curries and much more.<br>Contact:8861995818,7090689469</p>"+
+		"</div>"+
+		"</div>"
+	},
+	
+	{
+		"name": "Fruit shop",
+		"coords": {"lat":13.012714, "lng": 74.796426},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h3 id=\"firstHeading\" class=\"firstHeading\">Fruit shop</h3>"+
+		"<div id=\"bodyContent\">"+
+		"<p>Wanna stay healthy? Buy fresh fruits and vegetable at the fruit store below the girls co-op, next to Nandini.</p>"+
+		"</div>"+
+		"</div>"
+	},
+	
+	
+	{
+		"name": "West Campus Amul",
+		"coords": {"lat":13.012358, "lng":74.792226},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h3 id=\"firstHeading\" class=\"firstHeading\">West Campus Amul</h3>"+
+		"<div id=\"bodyContent\">"+
+		"<p>Located on the western side. Famous for their variety of chaats and amazing pani puri. (Paytm accepted :) )</p>"+
+		"</div>"+
+		"</div>"
+	}
 ];
